@@ -56,7 +56,7 @@ class ControlCenter {
         
         finalScore = (enemyShipsSunk * gameStats.sinkBonus) + (humanShipsRemaining * gameStats.shipBonus) - (numberOfGuesses * gameStats.guessPenalty)
         
-        print("the value of final score is (finalScore)")
+        print("the value of final score is: ", finalScore)
         
         return finalScore
     }
